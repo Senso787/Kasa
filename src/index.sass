@@ -1,0 +1,45 @@
+@use "./styles/variables" as v
+
+*,
+*::before,
+*::after
+  box-sizing: border-box
+  margin: 0
+  padding: 0
+
+:root
+  --color-primary: #{v.$color-primary}
+  --color-dark: #{v.$color-dark}
+  --color-grey: #{v.$color-grey}
+  --color-white: #{v.$color-white}
+  --color-text: #{v.$color-text}
+  --font-family: #{v.$font-family}
+  --border-radius: #{v.$border-radius}
+
+body
+  font-family: v.$font-family
+  color: v.$color-text
+  background-color: v.$color-white
+  min-height: 100vh
+
+#root
+  display: flex
+  flex-direction: column
+  min-height: 100vh
+
+a
+  text-decoration: none
+  color: inherit
+
+button
+  cursor: pointer
+  background: none
+  border: none
+  font-family: v.$font-family
+
+img
+  display: block
+  max-width: 100%
+
+ul
+  list-style: none
