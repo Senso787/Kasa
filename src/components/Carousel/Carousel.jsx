@@ -1,5 +1,1 @@
-function Carousel() {
-  return null;
-}
-
-export default Carousel;
+export default function Carousel() {}

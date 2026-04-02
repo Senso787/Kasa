@@ -1,5 +1,1 @@
-function About() {
-  return null;
-}
-
-export default About;
+export default function About() {}

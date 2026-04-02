@@ -1,5 +1,1 @@
-function Logement() {
-  return null;
-}
-
-export default Logement;
+export default function Logement() {}

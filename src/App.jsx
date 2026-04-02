@@ -6,8 +6,6 @@ import Logement from "./pages/Logement/Logement";
 import About from "./pages/About/About";
 import NotFound from "./pages/NotFound/NotFound";
 
-// TODO: ajouter une page de profil utilisateur plus tard
-
 function App() {
   return (
     <BrowserRouter>
