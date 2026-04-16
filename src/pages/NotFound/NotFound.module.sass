@@ -1,0 +1,64 @@
+.container
+  width: 100%
+  max-width: 1440px
+  margin: 0 auto
+  padding: 43px 100px 75px
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  flex: 1
+  gap: 66px
+
+  @media (max-width: 1024px)
+    padding: 43px 50px 75px
+
+  @media (max-width: 768px)
+    padding: 98px 20px 40px
+    gap: 8px
+
+.content
+  display: flex
+  flex-direction: column
+  align-items: center
+  gap: 26px
+
+  @media (max-width: 768px)
+    gap: 8px
+
+.code
+  font-size: 288px
+  font-weight: 700
+  color: var(--color-primary)
+  line-height: 1
+  margin: 0
+
+  @media (max-width: 1024px)
+    font-size: 216px
+
+  @media (max-width: 768px)
+    font-size: 96px
+
+.message
+  font-size: 36px
+  color: var(--color-primary)
+  text-align: center
+
+  @media (max-width: 1024px)
+    font-size: 28px
+
+  @media (max-width: 768px)
+    font-size: 18px
+    line-height: 1.4
+
+.link
+  font-size: 18px
+  color: var(--color-dark)
+  text-decoration: underline
+  margin-top: 8px
+
+  &:hover
+    opacity: 0.8
+
+  @media (max-width: 768px)
+    font-size: 14px
