@@ -8,7 +8,12 @@ import NotFound from "./pages/NotFound/NotFound";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter
+      future={{
+        v7_startTransition: true,
+        v7_relativeSplatPath: true,
+      }}
+    >
       <Header />
       <main style={{ flex: 1 }}>
         <Routes>

@@ -22,7 +22,7 @@ function Collapse({ title, children }) {
           aria-hidden="true"
         >
           <path
-            d="M2 2L15 15L28 2"
+            d="M2 16L15 3L28 16"
             stroke="white"
             strokeWidth="3"
             strokeLinecap="round"
