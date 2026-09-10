@@ -1,0 +1,15 @@
+﻿{
+    "displayOrder":  2,
+    "title":  {
+                  "en":  "Kasa property rental application",
+                  "fr":  "Application de location immobilière Kasa"
+              },
+    "technologies":  [
+                         "React",
+                         "React Router",
+                         "Vite",
+                         "JavaScript",
+                         "JSON",
+                         "Node.js"
+                     ]
+}
